@@ -141,12 +141,16 @@
                         <h2>Limitações</h2>
                     </section>
                     <section>
-                        <h2>Basement level 1</h2>
-                        <p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+                        <h2>Suposição de Linearidade</h2>
+		    <ul style="font-size: 30px;text-align: center;">
+                        <p>Como os componentes principais consistem em combinações lineares das variaveis, existe uma forte suposição de linearidade no PCA. Por conta disso, em dados altamente não lineares o PCA pode falhar em capturar adequadamente a estrutura, resultando em uma representação inadequada e perda de informação. </p>
+		    </ul>
                     </section>
                     <section>
-                        <h2>Basement level 2</h2>
-                        <p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+                        <h2>Sensibilidade à Escala das Variáveis e Outliers</h2>
+		    <ul style="font-size: 30px;text-align: center;">
+                        <p>Por buscar maximizar a variância dos dados em cada componente principal, o PCA se torna altamente sensivel a escala dos dados. Variáveis com escalar maiores terão prioridade sobre variáveis com escala menores mesmo quando isso não define necessariamente a importancia real das mesmas. Por conta disso, o PCA se torna sensivel também a outliers, que podem influenciar a variância dos dados de maneira desproporcional, distorcendo os componentes principais. Por conta disso é importante padronizar os dados.</p>
+		   </ul>
                     </section>
                 </section>
 
